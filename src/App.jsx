@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import LineChart from './Components/LineChart/LineChart'
 //import Nav from './Components/Nav/Nav'
 import NavBar from './Components/NavBar/NavBar'
 import PricingSelection from './Components/PricingSelection/PricingSelection'
@@ -17,6 +18,7 @@ function App() {
 
 
       <PricingSelection></PricingSelection>
+      <LineChart></LineChart>
 
 
 
