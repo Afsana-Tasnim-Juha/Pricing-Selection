@@ -41,12 +41,14 @@ const PricingSelection = () => {
 
 
     return (
-        <div>
-            <div>
+        <div className="m-12">
+            <div >
                 <h2 className="text-3xl">Best Prices:</h2>
-                {
-                    priceSelections.map(selection => <SinglePricingSelection key={selection.id} selection={selection}></SinglePricingSelection>)
-                }
+                <div className="grid md:grid-cols-3 gap-6">
+                    {
+                        priceSelections.map(selection => <SinglePricingSelection key={selection.id} selection={selection}></SinglePricingSelection>)
+                    }
+                </div>
             </div>
 
         </div>

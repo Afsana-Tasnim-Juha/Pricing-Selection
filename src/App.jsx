@@ -15,7 +15,7 @@ function App() {
       <NavBar></NavBar>
       {/*<Nav></Nav>*/}
 
-      <h1>Vite + React</h1>
+
       <PricingSelection></PricingSelection>
 
 
