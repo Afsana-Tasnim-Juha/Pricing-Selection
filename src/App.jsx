@@ -9,10 +9,11 @@ function App() {
 
   return (
     <>
-      {/*<Nav></Nav>
-*/}
+
 
       <NavBar></NavBar>
+      <Nav></Nav>
+
       <h1>Vite + React</h1>
 
 
