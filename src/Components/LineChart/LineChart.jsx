@@ -24,7 +24,7 @@ const LineChart = () => {
         <div>
             <LChart width={800} height={400} data={subjectMarksData}>
                 <XAxis dataKey="name" />
-                <XAxis dataKey="name" />
+                <YAxis />
                 <Line dataKey="math_marks" stroke='green'></Line>
                 <Line dataKey="physics_marks" stroke='red'></Line>
                 <Line dataKey="chemistry_marks" stroke='purple'></Line>
